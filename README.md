@@ -6,7 +6,8 @@
 		ssh-keygen -t rsa -C '邮箱email@example.com'
 	>3.查看公钥 （进入ssh目录下查看是否已生成公钥）
 		cd ~/.ssh
-	>4.复制公钥（进入目录后打开id_rsa.pub文件全部复制，粘贴到github的Settings页面的 》 SSH and GPG keys 》 SSH keys  》 New SSH key 的key栏中）
+	>4.复制公钥
+	（进入目录后打开id_rsa.pub文件全部复制，粘贴到github的Settings页面的 》 SSH and GPG keys 》 SSH keys  》 New SSH key 的key栏中）
 
 
 ## 2.克隆 github 项目

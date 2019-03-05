@@ -1,7 +1,7 @@
 ## 1.使用 git 前期配置
 	>1.设置名称和邮箱
-		git config -global user.name '名称'
-		git config -global user.email '邮箱email@example.com'
+		git config --global user.name '名称'
+		git config --global user.email '邮箱email@example.com'
 	>2.创建公钥 (输入完一路回车)
 		ssh-keygen -t rsa -C '邮箱email@example.com'
 	>3.查看公钥 （进入ssh目录下查看是否已生成公钥）
